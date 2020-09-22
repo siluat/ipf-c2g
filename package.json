@@ -1,0 +1,23 @@
+{
+  "name": "ipf-c2g",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "ipf-c2g": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rm -rf ./lib"
+  },
+  "author": "siluat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/yargs": "^15.0.5",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yargs": "^16.0.3"
+  }
+}
